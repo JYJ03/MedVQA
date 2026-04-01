@@ -1,12 +1,12 @@
 # MedVQA
 
-本仓库用于汇总与 **Medical Visual Question Answering（MedVQA，医学视觉问答）** 相关的数据集与资源。后续我会持续补充更多数据集主页信息，并在下表中更新。
+本仓库用于汇总与 **Medical Visual Question Answering（MedVQA，医学视觉问答）** 相关的数据集与资源
 
 ## 数据集一览
 
-| 数据集 | 模态/图像类型 | 任务形式 | 规模（大致） | 语言 | 许可证 | 链接 | 备注 |
+| 数据集 | 模态/图像类型 | 任务形式 | 规模 | 链接 | 备注 |
 |---|---|---|---:|---|---|---|---|
-| VQA-RAD | 放射学影像（Radiology：X-ray/CT/MRI 等）+ 文本问题 | 混合：Open-ended + Close-ended（Yes/No） | 约 2,244 QA / 314 图像 | 英文 | CC0-1.0 | https://huggingface.co/datasets/flaviagiammarino/vqa-rad | 基于 MedPix，问题由临床医生人工生成；常用于训练/评测医学 VQA |
+| VQA-RAD | 放射学影像（Radiology：X-ray/CT/MRI 等）+ 文本问题 | 混合：Open-ended + Close-ended | 2,244 QA / 314 images|https://huggingface.co/datasets/flaviagiammarino/vqa-rad | 基于 MedPix，问题由临床医生人工生成；常用于训练/评测医学 VQA |
 
 ## 图片示例插入通道（模板）
 
