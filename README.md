@@ -17,10 +17,4 @@
 | KVASIR-VQA | GI images| open ended | 6500 annotated images | https://huggingface.co/datasets/SimulaMet-HOST/Kvasir-VQA |  |
 | MIMIC-CXR-VQA |Chest X-ray  | open-ended | 377110 images | https://physionet.org/content/mimic-cxr/2.1.0/ | need to apple and pass the exam |
 | MedFrameQA | various | MCQ | 2851 QA | https://huggingface.co/datasets/SuhaoYu1020/MedFrameQA |  multi-image for one QA|
-| Med-VQA-2019 |  |  |  |  |  |
-| IDRiD |  |  |  |  |  |
-| BACH |  |  |  |  |  |
-| VQA-Med |  |  |  |  |  |
-| VQA-v1 |  |  |  |  |  |
-| VQA-v2 |  |  |  |  |  |
-pay attention to ImageCLEF 2020 VQA-Med
+| ImageCLEF(VQA-Med) | various | MCQ | 15k QA / 4k images | https://zenodo.org/records/10499039 |  used in ImageCLEF-2019|
