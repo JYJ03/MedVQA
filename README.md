@@ -10,7 +10,11 @@
 | Slake |  |  |  |  |  |
 | GEMeX |  |  |  |  |  |
 | Path-Vqa | pathology images | open-ended + binary | 32632 QA / 4289 images | https://huggingface.co/datasets/flaviagiammarino/path-vqa | ---- |
-| PMC-VQA | various modalities | MCQ | 227k QA / 149k images | https://github.com/xiaoman-zhang/PMC-VQA | --- |
+| *PMC-VQA | various | MCQ | 227k QA / 149k images | https://github.com/xiaoman-zhang/PMC-VQA | May choose |
+| *MMMU(health & medicine | various | Mainly MCQ | about 2k QA | https://huggingface.co/datasets/MMMU/MMMU | Hard  May choose|
+| Quilt_VQA | pathology images | open-ended | 1283 QA | https://huggingface.co/datasets/wisdomik/Quilt_VQA | need to apply to be continue|
+| *OmniMedVQA | various | MCQ | 128k QA / 120k images | https://openxlab.org.cn/datasets/GMAI/OmniMedVQA | some images may need to apply |
+| *MedXpertQAMM | various | MCQ | about 2k QA | https://huggingface.co/datasets/TsinghuaC3I/MedXpertQA | Hard |
 ## 图片示例插入通道（模板）
 
 你可以把数据集的样例图（或你自己从数据集中抽取的样例图）放到仓库中，例如：`assets/datasets/vqa-rad/example.jpg`，然后在 README 里用下面的方式插入。
