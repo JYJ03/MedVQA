@@ -31,7 +31,7 @@
 | Medical VLM | HuatuoGPT-Vision | https://huggingface.co/FreedomIntelligence/HuatuoGPT-Vision-7B | 直接推理 |
 
 ## 实验
-
+**验证器 INPUT **
 system
 You are a reasoning validator for medical problems. Your task is to think step by step and evaluate whether the given reasoning trace of a medical problem contains errors.
 
