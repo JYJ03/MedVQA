@@ -31,8 +31,10 @@
 | Medical VLM | HuatuoGPT-Vision | https://huggingface.co/FreedomIntelligence/HuatuoGPT-Vision-7B | 直接推理 |
 
 ## 实验
-**验证器 INPUT **
+验证器 INPUT
+
 system
+
 You are a reasoning validator for medical problems. Your task is to think step by step and evaluate whether the given reasoning trace of a medical problem contains errors.
 
 First, you must always perform a step-by-step analysis to examine the entire reasoning process. Then, based on your analysis, you will make a definitive judgment.
@@ -40,21 +42,29 @@ First, you must always perform a step-by-step analysis to examine the entire rea
 - Use 0 if the reasoning trace contains one or more errors.
 
 Output Instruction:
+
 You must conduct your step-by-step analysis inside `<think>` and `</think>` first every time you get new information. After reasoning, if you find you lack some knowledge, you can call a search engine by `<search> query </search>` and it will return the top searched results between `<information>` and `</information>`. You can search as many times as you want. If you find no further external knowledge needed, you can directly provide the answer inside `<answer>` and `</answer>`, without detailed illustrations.
 
 
 user
+
 Medical Problem:
+
 A 46-year-old woman comes to the physician because of a 2-week history of diplopia and ocular pain when reading the newspaper. She also has a 3-month history of amenorrhea, hot flashes, and increased sweating. She reports that she has been overweight all her adult life and is happy to have lost 6.8-kg (15-lb) of weight in the past 2 months. Her pulse is 110/min, and blood pressure is 148/98 mm Hg. Physical examination shows moist palms and a nontender thyroid gland that is enlarged to two times its normal size. Ophthalmologic examination shows prominence of the globes of the eyes, bilateral lid retraction, conjunctival injection, and an inability to converge the eyes. There is no pain on movement of the extraocular muscles. Visual acuity is 20/20 bilaterally. Neurologic examination shows a fine resting tremor of the hands. Deep tendon reflexes are 3+ with a shortened relaxation phase. Which of the following is the most likely cause of this patient's ocular complaints?
 
 Options:
+
 A. Granulomatous inflammation of the cavernous sinus
+
 B. Abnormal communication between the cavernous sinus and the internal carotid artery
+
 C. Glycosaminoglycan accumulation in the orbit
+
 D. Bacterial infection of the orbital contents
+
 E. Sympathetic hyperactivity of levator palpebrae superioris
 
-
 Reasoning Trace:
+
 Step 1:  The patient presents with symptoms of diplopia, ocular pain, and a 3-month history of amenorrhea, hot flashes, and weight loss, which are suggestive of hyperthyroidism. The physical examination findings of moist palms, tachycardia, hypertension, and a nontender, enlarged thyroid gland further support this diagnosis.  Step 2:  The patient's ocular symptoms, such as prominence of the globes, bilateral lid retraction, conjunctival injection, and an inability to converge the eyes, are characteristic of Graves' disease, an autoimmune cause of hyperthyroidism.  Step 3:  The inability to converge the eyes is due to the sympathetic hyperactivity of the levator palpebrae superioris muscle, which is a characteristic finding in Graves' disease.  Step 4:  The other options do not accurately explain the patient's ocular complaints. Granulomatous inflammation of the cavernous sinus (A) and abnormal communication between the cavernous sinus and the internal carotid artery (B) would not cause the specific constellation of ocular symptoms seen in this patient. Glycosaminoglycan accumulation in the orbit (C) is associated with mucopolysaccharidosis, which is not suggested by the patient's other symptoms. Bacterial infection of the orbital contents (D) would cause pain on movement of the extraocular muscles, which is not present in this patient.  Step 5:  Therefore, the most likely cause of the patient's ocular complaints is sympathetic hyperactivity of the levator palpebrae superioris, which is a characteristic finding in Graves' disease.  The answer is E.
 assistant
